@@ -1,0 +1,88 @@
+@import 'reset';
+
+.headline{
+  font-size: 50px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.subheadline{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 15px 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------
+
+  @@ CONTAINER
+
+--------------------------------------------------*/
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------
+
+  @@ ROW
+
+--------------------------------------------------*/
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  padding: 0 15px;
+}
+
+.content{
+  background: rgb(255,150,150);
+}
+
+/*--------------------------------------------------
+
+  @@ SPANS
+
+--------------------------------------------------*/
+
+.span2 { grid-column: auto / span 2;}
+.span3 { grid-column: auto / span 3;}
+.span4 { grid-column: auto / span 4;}
+.span5 { grid-column: auto / span 5;}
+.span6 { grid-column: auto / span 6;}
+.span7 { grid-column: auto / span 7;}
+.span8 { grid-column: auto / span 8;}
+.span9 { grid-column: auto / span 9;}
+.span10 { grid-column: auto / span 10;}
+.span11 { grid-column: auto / span 11;}
+.span12 { grid-column: auto / span 12;}
