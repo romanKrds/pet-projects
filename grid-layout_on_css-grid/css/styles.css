@@ -74,6 +74,9 @@ table {
 .content {
   background: #ff9696; }
 
+.no-gap {
+  grid-gap: 0; }
+
 /*--------------------------------------------------
   
     @@ SPANS
